@@ -3,9 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    我爱吃屎
+    <header>
+        <h1>Personal Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#bio">Biography</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero-section">
+        <h2>Welcome to My Personal Website</h2>
+        <p>Explore my skills, projects, and career journey.</p>
+        <button>Learn More</button>
+    </div>
+
+    <div class="container">
+        <section id="bio" class="bio">
+            <h2>Biography</h2>
+            <div class="bio-content">
+                <p><strong>Name:</strong> Your Name</p>
+                <p><strong>Education:</strong> School and Major</p>
+                <p><strong>Work Experience:</strong> Recent Work Experience</p>
+                <p><strong>Hobbies:</strong> Game Development, Design, etc.</p>
+            </div>
+            <div class="bio-image">
+                <img src="your-photo.jpg" alt="Your Photo">
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <h2>Skills</h2>
+            <div class="skills-bars">
+                <div class="skill">
+                    <span>Programming (90%)</span>
+                    <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+                </div>
+                <div class="skill">
+                    <span>Game Development (80%)</span>
+                    <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+                </div>
+                <div class="skill">
+                    <span>Design (70%)</span>
+                    <div class="progress-bar"><div class="progress" style="width: 70%;"></div></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio">
+            <h2>Portfolio</h2>
+            <div class="carousel">
+                <div class="carousel-item">
+                    <h3>Game Project 1</h3>
+                    <p>Project description, including game type, gameplay, etc.</p>
+                    <button>View Details</button>
+                </div>
+                <div class="carousel-item">
+                    <h3>Game Project 2</h3>
+                    <p>Project description, including game type, gameplay, etc.</p>
+                    <button>View Details</button>
+                </div>
+                <div class="carousel-item">
+                    <h3>Game Project 3</h3>
+                    <p>Project description, including game type, gameplay, etc.</p>
+                    <button>View Details</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <p>If you need more information or collaboration opportunities, feel free to contact me.</p>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2024 Your Name | Design and Development</p>
+    </footer>
 </body>
 </html>
