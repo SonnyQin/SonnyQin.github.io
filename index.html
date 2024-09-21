@@ -6,6 +6,9 @@
     <title>Personal Website</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script> -->
+
+  
 </head>
 <body>
     <header>
@@ -36,7 +39,7 @@
                 <p><strong>Hobbies:</strong> Game Development, Design, etc.</p>
             </div>
             <div class="bio-image">
-                <img src="your-photo.jpg" alt="Your Photo">
+                <img src="photo.png" alt="Your Photo">
             </div>
         </section>
 
@@ -62,19 +65,13 @@
             <h2>Portfolio</h2>
             <div class="carousel">
                 <div class="carousel-item">
-                    <h3>Game Project 1</h3>
-                    <p>Project description, including game type, gameplay, etc.</p>
-                    <button>View Details</button>
+                    <p> img</p>
                 </div>
                 <div class="carousel-item">
-                    <h3>Game Project 2</h3>
-                    <p>Project description, including game type, gameplay, etc.</p>
-                    <button>View Details</button>
+                    <p> img</p>
                 </div>
                 <div class="carousel-item">
-                    <h3>Game Project 3</h3>
-                    <p>Project description, including game type, gameplay, etc.</p>
-                    <button>View Details</button>
+                    <p> img</p>
                 </div>
             </div>
         </section>
@@ -82,11 +79,10 @@
         <section id="contact" class="contact">
             <h2>Contact Me</h2>
             <p>If you need more information or collaboration opportunities, feel free to contact me.</p>
-            <form>
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <textarea placeholder="Your Message"></textarea>
-                <button type="submit">Send Message</button>
+            <form id="contactForm">
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message"></textarea>
+                <button type="button" id="submit">Send Message</button>
             </form>
         </section>
     </div>
@@ -94,5 +90,6 @@
     <footer>
         <p>© 2024 Your Name | Design and Development</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
